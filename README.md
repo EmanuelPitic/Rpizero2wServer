@@ -14,7 +14,6 @@ Acest proiect implementează un broker MQTT5 simplu care gestionează conexiunil
 - **`sqlServer.py`**: Modulul care gestionează operațiile legate de baza de date, incluzând autentificarea, stocarea și actualizarea informațiilor despre clienți în baza de date SQLite.
 
 - **`decoder.py`**: Implementează clasa `MQTTDecoder`, care este utilizată pentru decodificarea pachetelor MQTT primite de la clienți, cum ar fi `CONNECT`, `PINGREQ` și `DISCONNECT`.
-  - [Explicație detaliată pentru `decoder.py`](Docs/decoder.md)
 
 - **`packet_creator.py`**: Conține funcțiile necesare pentru crearea pachetelor MQTT, cum ar fi `CONNACK`, `PINGRESP` și `DISCONNECT`, ce sunt trimise ca răspuns către clienți.
 
